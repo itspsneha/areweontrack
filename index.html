@@ -11,18 +11,12 @@
         <h1>🚂 Are You On Track? 🚂</h1>
         <p>Let’s find out… or not! 😜</p>
     </header>
-    <section id="track-o-meter">
-        <h2>The Track-O-Meter</h2>
-        <div class="gauge">
-            <div class="needle"></div>
-        </div>
-        <img src="track-gif.gif" alt="Funny GIF" class="track-gif">
-    </section>
     <section id="funny-tips">
         <h2>How to Stay on Track</h2>
         <ul>
             <li>📝 Set goals. Then nap. 😴</li>
             <li>📋 Write a to-do list. Lose it. 🤷‍♀️</li>
+            <li>💡 Think positive. Then procrastinate. 📅</li>
         </ul>
     </section>
     <section id="motivational-quotes">
@@ -30,11 +24,19 @@
         <ul>
             <li>“You miss 100% of the naps you don’t take.” 💤</li>
             <li>“Stay on track… or enjoy the detour.” 🚧</li>
+            <li>“When in doubt, take a coffee break.” ☕</li>
         </ul>
     </section>
-    <section id="cta">
-        <button onclick="showMessage()">Find Your Track! 🚀</button>
-        <p id="message"></p>
+    <section id="fun-activities">
+        <h2>Fun Activities</h2>
+        <button onclick="showRandomActivity()">Get a Fun Activity! 🎉</button>
+        <p id="activity"></p>
+    </section>
+    <section id="user-feedback">
+        <h2>Share Your Track Status</h2>
+        <input type="text" id="status" placeholder="How's your track going?">
+        <button onclick="submitStatus()">Submit 🚀</button>
+        <p id="submitted-status"></p>
     </section>
     <footer>
         <p>Made by <a href="https://twitter.com/itspsneha" target="_blank">Sneha</a></p>
