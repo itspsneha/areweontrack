@@ -15,10 +15,8 @@ function showRandomActivity() {
     const randomIndex = Math.floor(Math.random() * activities.length);
     document.getElementById('activity').innerText = activities[randomIndex];
     document.getElementById('activity').style.display = 'block';
-    document.getElementById('luffy-gif').style.display = 'block';
 }
 
 document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('activity').style.display = 'none';
-    document.getElementById('luffy-gif').style.display = 'none';
 });
