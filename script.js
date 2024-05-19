@@ -11,7 +11,5 @@ function showRandomActivity() {
     document.getElementById('activity').innerText = activities[randomIndex];
 }
 
-function submitStatus() {
-    const status = document.getElementById('status').value;
-    document.getElementById('submitted-status').innerText = `Your status: ${status}`;
-}
+// Initially show an activity when the page loads
+document.addEventListener('DOMContentLoaded', showRandomActivity);
