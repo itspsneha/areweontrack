@@ -10,6 +10,3 @@ function showRandomActivity() {
     const randomIndex = Math.floor(Math.random() * activities.length);
     document.getElementById('activity').innerText = activities[randomIndex];
 }
-
-// Initially show an activity when the page loads
-document.addEventListener('DOMContentLoaded', showRandomActivity);
