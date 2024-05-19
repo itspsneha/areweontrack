@@ -12,7 +12,7 @@ body {
 
 header {
     margin: 2rem 0;
-    background-color: #3498db;
+    background-color: #333;
     color: white;
     padding: 1rem;
     border-radius: 10px;
@@ -26,12 +26,12 @@ h1 {
 
 h2 {
     font-size: 1.75rem;
-    color: #34495e;
+    color: #444;
 }
 
 p {
     font-size: 1rem;
-    color: #7f8c8d;
+    color: #555;
 }
 
 section {
@@ -42,7 +42,7 @@ section {
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #e1f7d5;
+    background-color: #e1e1e1;
 }
 
 ul {
@@ -56,7 +56,7 @@ li {
 }
 
 button {
-    background-color: #e74c3c;
+    background-color: #444;
     color: white;
     border: none;
     padding: 0.75rem 1.5rem;
@@ -67,18 +67,18 @@ button {
 }
 
 button:hover {
-    background-color: #c0392b;
+    background-color: #333;
 }
 
 footer {
     margin: 2rem 0;
     text-align: center;
     font-size: 0.9rem;
-    color: #95a5a6;
+    color: #666;
 }
 
 footer a {
-    color: #3498db;
+    color: #444;
     text-decoration: none;
 }
 
