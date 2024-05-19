@@ -34,6 +34,10 @@ p {
     color: #555;
 }
 
+.subheader {
+    color: white;
+}
+
 section {
     width: 90%;
     max-width: 600px;
@@ -78,11 +82,7 @@ footer {
 }
 
 footer a {
-    color: #444;
-    text-decoration: none;
-}
-
-footer a:hover {
+    color: blue;
     text-decoration: underline;
 }
 
